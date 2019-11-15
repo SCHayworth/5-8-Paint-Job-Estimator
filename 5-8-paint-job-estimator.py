@@ -22,8 +22,8 @@ def main():
     """
     # Prompt the user for the square footage of wall space and the price per
     # gallon of paint.
-    wall_space = int(input('Enter wall space in sqare feet: '))
-    price_per_gallon = float(input('Enter paint price per gallon: '))
+    wall_space = input('Enter wall space in sqare feet: ')
+    price_per_gallon = input('Enter paint price per gallon: ')
 
     # Call the cost_estimate function and pass wall_space and price_per_gallon
     # as arguments
