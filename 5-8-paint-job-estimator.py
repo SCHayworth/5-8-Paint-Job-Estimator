@@ -49,10 +49,10 @@ def cost_estimate(feet, paint):
     total_estimate = paint_cost + labor_cost
 
     # Print the results to the screen.
-    print(f"Gallons of paint: {paint_needed}"
-          f"Hours of labor: {labor_needed}"
-          f"Paint charges: ${paint_cost:,.2f}"
-          f"Labor charges: ${labor_cost:,.2f}"
+    print(f"Gallons of paint: {paint_needed}\n"
+          f"Hours of labor: {labor_needed}\n"
+          f"Paint charges: ${paint_cost:,.2f}\n"
+          f"Labor charges: ${labor_cost:,.2f}\n"
           f"Total cost: ${total_estimate:,.2f}")
 
 # Call the main() function to execute the program.
