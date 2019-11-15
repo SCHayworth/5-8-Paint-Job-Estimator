@@ -35,10 +35,9 @@ def cost_estimate(feet, paint):
     total cost of labor and paint and prints the results to the screen.
     """
     # If feet parameter is evenly divisible by FEET_PER_GALLON, assign the
-    # quotient to paint_needed. Otherwise, add 1 to the quotient and assign it
-    # to paint_needed.
+    # quotient to paint_needed. Otherwise, floor divide and add 1.
     if feet % FEET_PER_GALLON == 0:
-        paint_needed = feet // FEET_PER_GALLON
+        paint_needed = feet / FEET_PER_GALLON
     else:
         paint_needed = (feet // FEET_PER_GALLON) + 1
 
